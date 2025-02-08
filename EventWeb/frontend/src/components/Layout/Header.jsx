@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return(
         <div>
@@ -8,7 +10,12 @@ const Header = () => {
                 <input type="search" placeholder="rechercher...."/>
             </div>
             <div>
-                menu
+                <div>
+                    <Link to='/Evenement'>Evenement</Link>
+                    <Link to='/Prestataire'>Prestataire</Link>
+                    <Link to='/Service'>Service</Link>
+                    <Link to='/Billets'>Billets</Link>
+                </div>
             </div>
         </div>
     )
