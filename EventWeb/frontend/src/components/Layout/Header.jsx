@@ -1,7 +1,15 @@
 const Header = () => {
     return(
         <div>
-            <h1>Header</h1>
+            <div>
+                EventApp
+            </div>
+            <div>
+                <input type="search" placeholder="rechercher...."/>
+            </div>
+            <div>
+                menu
+            </div>
         </div>
     )
 }
