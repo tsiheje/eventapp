@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+}
+
+p {
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+}
+
+
 *{
   margin: 0;
   padding: 0;
