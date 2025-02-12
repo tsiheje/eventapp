@@ -3,10 +3,9 @@ import Evenement from "../pages/Evenement";
 import Prestataire from "../pages/Prestataire";
 import Service from "../pages/service";
 import Billets from "../pages/Billets";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
 import Profil from "../pages/Profil";
 import Dashboard from "../pages/Dashboard";
+import Contact from "../pages/Contact";
 
 const routes = [
     {
@@ -33,6 +32,11 @@ const routes = [
         path: "/billets",
         name: "Billets",
         Element: Billets,
+    },
+    {
+        path: "/contacts",
+        name: "Contacts",
+        Element: Contact
     }
 ];
 

@@ -17,7 +17,8 @@ module.exports = (sequelize, DataTypes) => {
     userId: DataTypes.INTEGER,
     specialite: DataTypes.STRING,
     tarifhoraire: DataTypes.FLOAT,
-    disponipibilite: DataTypes.STRING
+    disponipibilite: DataTypes.STRING,
+    profil: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Prestataire',
